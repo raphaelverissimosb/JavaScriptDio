@@ -5,8 +5,20 @@
     <title>Ex my JS Document</title>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body onload="load">
     <h1>My page</h1>
- 
+    
+    <button type="button" onclick="button()">Click here</button>
+    <p id="thksfull" onclick="redirect()"></p>
+    <p id="mousemove" onmouseover="redirection(this)" onmouseout="back(this)">passe o mouse aqui !</p>
+    <p id="mousemove" onmouseover="redirection(this)" onmouseout="back(this)">passe o mouse aqui !</p>
+
+
+    <select onchange="funcaoChange(this)">
+        <option value="">Value 1</option>
+        <option value="">Value 2</option>
+        <option value="">Value 3</option>
+    </select>
+    
 </body>
 </html>

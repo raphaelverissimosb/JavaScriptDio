@@ -1,11 +1,34 @@
 
-var nome = prompt("Qual e o seu nome ?");
+
+
+function load(){
+    alert("Page is okay!!!");
+}
+
+function button(){
+    document.getElementById("thksfull").innerHTML = "Thks for your click here!";
+    console.log()
+}
+
+function redirection(elemento){
+    //document.getElementById("mousemove").innerHTML ="Hey thanks for pass the mouse";
+    elemento.innerHTML = "Hey thanks for pass the mouse";
+}
+function back(elemento){
+   // document.getElementById("mousemove").innerHTML ="Pass the mouse here!"
+    elemento.innerHTML = "Pass the mouse here!";
+}
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+/*var nome = prompt("Qual e o seu nome ?");
 
 if(nome == "Alan"){
     alert("Seu nome realmente e :" + nome);
 }else{
     alert("Desculpe , nome nao cadastrado em noso banco de dados!");
-}
+}*/
 
 
 
